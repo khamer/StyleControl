@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>StyleControl</title>
+<style type="text/css">
+body {
+	min-width: 400px;
+	font-size: 13px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+td:last-child {
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<table cellspacing="0">
+	    <thead>
+			<tr>
+				<th>name</th>
+				<th>actions</th>
+			</tr>
+	    </thead>
+	    <tbody>
+			<tr>
+				<td>http://localhost/test/dev.css</td>
+				<td>
+					<button type="button">only</button>
+					| <button type="button">on</button>
+					| <button type="button">off</button>
+				</td>
+			</tr>
+	    </tbody>
+	</table>
+
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/menu.js"></script>
+</body>
+</html>
